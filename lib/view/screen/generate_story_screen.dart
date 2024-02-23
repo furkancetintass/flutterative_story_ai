@@ -149,6 +149,7 @@ class _GenerateStoryScreenState extends State<GenerateStoryScreen> {
     return Image.file(
       context.read<GenerativeAIViewModel>().selectedImage!,
       height: MediaQuery.of(context).size.height * 0.3,
+      fit: BoxFit.cover,
     );
   }
 }
