@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "flutterative_story_ai",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-d",
+                "143EEC17-4A2F-4CCF-B1C2-7FEA30CD8227",
+                "--dart-define-from-file=env.json"
+            ]
+        },
+        {
+            "name": "flutterative_story_ai (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "flutterative_story_ai (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
