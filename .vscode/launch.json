@@ -15,6 +15,16 @@
             ]
         },
         {
+            "name": "flutterative_story_ai (Android)",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-d",
+                "emulator-5554",
+                "--dart-define-from-file=env.json"
+            ]
+        },
+        {
             "name": "flutterative_story_ai (profile mode)",
             "request": "launch",
             "type": "dart",
